@@ -1,3 +1,33 @@
+# postgres-postgrest-cloudflare-docker
+
+# An example `docker-compose` setup for configuring a PostgreSQL database and the associated PostgREST endpoint, which is exposed to the internet using `cloudflared`
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/postgres-postgrest-cloudflare-docker
+
+From:
+
+https://github.com/cloudflare/postgres-postgrest-cloudflared-example
+
+## Environment Values
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/postgres-postgrest-cloudflare-docker.git
+git push -u origin main
+```
+
 # Postgrest Docker example
 
 An example `docker-compose` setup for configuring a PostgreSQL database and the associated PostgREST endpoint, which is exposed to the internet using `cloudflared`.
@@ -17,7 +47,7 @@ _Note: depending on how your Docker installation is set up, you may need to pref
 You can generate some example data by running the `create-example-data.sql` script inside of your running docker container:
 
 ```sh
-$ docker-compose exec postgres psql -U user -d db -f /scripts/create-example-data.sql 
+$ docker-compose exec postgres psql -U user -d db -f /scripts/create-example-data.sql
 ```
 
 This will create a `users` table and a single user with the name `Kristian`.
